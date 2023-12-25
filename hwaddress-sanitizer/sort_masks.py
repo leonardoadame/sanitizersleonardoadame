@@ -5,7 +5,7 @@ masks = [0,   1,   2,   3,   4,   6,   7,   8,   12,  14,  15, 16,  24,
 
 new_masks = [0]
 
-for i in range(0, 35):
+for _ in range(0, 35):
   lowest_num_collisions = None
   next_mask = None
   for m1 in masks:
